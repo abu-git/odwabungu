@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Landing() {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 items-center mt-16 px-10 pb-9 bg-white'>
-        <div className='flex justify-center items-center h-80'>
+        <div className='flex justify-center items-center h-96'>
             <Image src='/odwaLanding.jpg' alt='Odwa Bungu' width={240} height={240} className='rounded-full' />
         </div>
         
