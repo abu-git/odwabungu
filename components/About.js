@@ -3,6 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div className='bg-white py-8'>
+      <div name="about"></div>
         <h3 className='text-center text-2xl md:text-3xl font-bold underline decoration-4 underline-offset-8 mb-5'>About</h3>
 
         <section className='px-8 md:px-24 text-justify'>

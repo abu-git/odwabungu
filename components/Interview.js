@@ -3,6 +3,7 @@ import React from 'react'
 function Interview() {
   return (
     <div className='bg-sky-50 px-10 py-9'>
+        <div name="interview"></div>
         <h4 className='text-xl font-bold text-center py-4'>Keith Ngesi Interview</h4>
 
         <div className='mt-7 max-w-xl mx-auto'>

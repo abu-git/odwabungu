@@ -16,11 +16,19 @@ function Navigation() {
                     <Link to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
                         <li className='cursor-pointer'>Home</li>
                     </Link>
+                    <Link to='books' spy={true} smooth={true} offset={-80} duration={500} delay={500}>
+                        <li className='cursor-pointer'>Books</li>
+                    </Link>
+                    <Link to='about' spy={true} smooth={true} offset={-80} duration={500} delay={500}>
+                        <li className='cursor-pointer'>About</li>
+                    </Link>
+                    <Link to='interview' spy={true} smooth={true} offset={-80} duration={500} delay={500}>
+                        <li className='cursor-pointer'>Interview</li>
+                    </Link>
+                    <Link to='contact' spy={true} smooth={true} offset={-80} duration={500} delay={500}>
+                        <li className='cursor-pointer'>Contact</li>
+                    </Link>
                     
-                    <li>Books</li>
-                    <li>About</li>
-                    <li>Interview</li>
-                    <li>Contact</li>
                 </ul>
 
                 <button onClick={() => setShowSideBar(!showSideBar)} className='lg:hidden'>
