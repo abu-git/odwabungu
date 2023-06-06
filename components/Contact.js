@@ -29,7 +29,7 @@ function Contact() {
                 <h3 className='text-xl md:text-2xl mt-3 mb-12 text-center'>You can also send me a message directly</h3>
                 <div className='flex justify-center'>
                     
-                    <form className='w-fit text-lg'>
+                    <form className='w-fit lg:w-96 text-lg'>
                         <input type='text' placeholder='Your Name' className='appearance-none bg-transparent border-b-2 border-gray-400 w-full focus:outline-none focus:border-gray-800 mb-8' />
 
                         <input type='text' placeholder='Your Email' className='appearance-none bg-transparent border-b-2 border-gray-400 w-full focus:outline-none focus:border-gray-800 mb-8' />

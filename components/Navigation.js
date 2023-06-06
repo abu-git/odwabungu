@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function Navigation() {
     //sidebar state
@@ -12,7 +13,10 @@ function Navigation() {
                 <h4 className='text-2xl font-bold'>Odwa Bungu</h4>
 
                 <ul className='hidden lg:flex justify-between items-center w-2/3 text-2xl'>
-                    <li>Home</li>
+                    <Link to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                        <li className='cursor-pointer'>Home</li>
+                    </Link>
+                    
                     <li>Books</li>
                     <li>About</li>
                     <li>Interview</li>
