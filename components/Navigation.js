@@ -39,7 +39,7 @@ function Navigation() {
             </nav>
 
             {/* Smaller devices SideBar Navigation */}
-            <div className={`top-0 right-0 w-[380px] bg-sky-800 text-white dark:bg-teal-900 dark:text-white p-10 pl-20 fixed h-full z-40 ease-in-out duration-300 ${showSideBar ? "translate-x-0" : "translate-x-full"}`}>
+            <div className={`top-0 right-0 w-[380px] bg-sky-800 text-white p-10 pl-20 fixed h-full z-40 ease-in-out duration-300 ${showSideBar ? "translate-x-0" : "translate-x-full"}`}>
                 <nav>
                     <div className='flex justify-end'>
                         <button onClick={() => setShowSideBar(!showSideBar)}>
