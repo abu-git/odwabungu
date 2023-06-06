@@ -34,7 +34,7 @@ function Contact() {
 
                         <input type='text' placeholder='Your Email' className='appearance-none bg-transparent border-b-2 border-gray-400 w-full focus:outline-none focus:border-gray-800 mb-8' />
 
-                        <textarea type='text' placeholder='Your Message' rows={6} className='appearance-none bg-transparent border-b-2 border-gray-400 w-full focus:outline-none focus:border-gray-800 mb-8' />
+                        <textarea type='text' placeholder='Your Message' rows={6} className='appearance-none bg-transparent border-b-2 border-gray-400 w-full focus:outline-none focus:border-gray-800 mb-6' />
 
                         <div className='flex justify-center'>
                         <button className='text-white border-2 bg-sky-700 rounded-3xl py-1 px-3 mx-4 hover:bg-sky-900 hover:border-amber-400'>

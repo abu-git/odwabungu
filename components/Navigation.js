@@ -15,6 +15,7 @@ function Navigation() {
                     <li>Home</li>
                     <li>Books</li>
                     <li>About</li>
+                    <li>Interview</li>
                     <li>Contact</li>
                 </ul>
 
@@ -40,6 +41,7 @@ function Navigation() {
                         <li className='py-3'>Home</li>
                         <li className='py-3'>Books</li>
                         <li className='py-3'>About</li>
+                        <li className='py-3'>Interview</li>
                         <li className='py-3'>Contact</li>
                     </ul>
                 </nav>
