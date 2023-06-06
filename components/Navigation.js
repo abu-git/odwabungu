@@ -50,11 +50,22 @@ function Navigation() {
                     </div>
 
                     <ul className='text-center py-9 text-2xl'>
-                        <li className='py-3'>Home</li>
-                        <li className='py-3'>Books</li>
-                        <li className='py-3'>About</li>
-                        <li className='py-3'>Interview</li>
-                        <li className='py-3'>Contact</li>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                            <li className='py-3'>Home</li>
+                        </Link>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='books' spy={true} smooth={true} offset={-90} duration={500} delay={500}>
+                            <li className='py-3'>Books</li>
+                        </Link>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='about' spy={true} smooth={true} offset={-90} duration={500} delay={500}>
+                            <li className='py-3'>About</li>
+                        </Link>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='interview' spy={true} smooth={true} offset={-90} duration={500} delay={500}>
+                            <li className='py-3'>Interview</li>
+                        </Link>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='contact' spy={true} smooth={true} offset={-90} duration={500} delay={500}>
+                            <li className='py-3'>Contact</li>
+                        </Link>
+                        
                     </ul>
                 </nav>
             </div>
