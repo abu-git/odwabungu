@@ -5,6 +5,7 @@ import Books from '@/components/Books'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import Interview from '@/components/Interview'
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Landing />
       <Books />
       <About />
+      <Interview />
       <Contact />
       <Footer />
     </>

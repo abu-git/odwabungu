@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='bg-sky-50 py-9'>
+    <div className='bg-white py-9'>
         <h3 className='text-center text-2xl md:text-3xl font-bold underline decoration-4 underline-offset-8 mb-7'>Contact</h3>
         <div className='px-10 grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center content-center'>
             <section className='flex flex-col justify-center items-center'>
