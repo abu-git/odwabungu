@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Navigation from '@/components/Navigation'
 import Landing from '@/components/Landing'
 import Books from '@/components/Books'
+import About from '@/components/About'
+import Contact from '@/components/Contact'
 
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
       <Navigation />
       <Landing />
       <Books />
+      <About />
+      <Contact />
     </>
   )
 }

@@ -12,9 +12,9 @@ function Navigation() {
                 <h4 className='text-2xl font-bold'>Odwa Bungu</h4>
 
                 <ul className='hidden lg:flex justify-between items-center w-2/3 text-2xl'>
+                    <li>Home</li>
                     <li>Books</li>
                     <li>About</li>
-                    <li>Interviews</li>
                     <li>Contact</li>
                 </ul>
 
@@ -37,9 +37,9 @@ function Navigation() {
                     </div>
 
                     <ul className='text-center py-9 text-2xl'>
+                        <li className='py-3'>Home</li>
                         <li className='py-3'>Books</li>
                         <li className='py-3'>About</li>
-                        <li className='py-3'>Interviews</li>
                         <li className='py-3'>Contact</li>
                     </ul>
                 </nav>
