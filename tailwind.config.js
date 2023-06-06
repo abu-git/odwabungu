@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Cormorant Garamond', 'serif']
+        body: ['Cormorant Garamond', 'serif'],
+        sans: ['Source Sans Pro', 'sans-serif']
       }
     },
   },
