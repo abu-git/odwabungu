@@ -12,7 +12,7 @@ function About() {
             </p>
 
             <p className='text-lg md:text-xl mt-10'>
-            His recent book 'Knots in my Wording' deals with the issues of stuttering and he draws inspiration from his personal experience as a young man. 
+            His recent book &apos;Knots in my Wording&apos; deals with the issues of stuttering and he draws inspiration from his personal experience as a young man. 
             </p>
         </section>
     </div>
