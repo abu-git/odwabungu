@@ -12,7 +12,7 @@ function Landing() {
         
         <div className='md:px-10'>
             <h2 className='font-extrabold text-4xl md:text-5xl text-center text-black'>Odwa Bungu</h2>
-            <h4 className='pt-5 text-center text-2xl font-light'>Author and Speaker</h4>
+            <h4 className='pt-5 text-center text-2xl font-light'>Author and Publisher</h4>
         </div>
       </div>
     </>
