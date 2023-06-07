@@ -15,7 +15,9 @@ function Footer() {
         </div>
 
         <div className='flex justify-center mt-10'>
-            <h4>©2023 Design by <span className='text-amber-900'>Samuel Abu</span></h4>
+            <a href='https://sam-cv.vercel.app' target='_blank' rel='noreferrer'>
+                <h4 className='text-lg'>©2023 Design by <span className='text-amber-900'>Samuel Abu</span></h4>
+            </a>
         </div>
     </div>
   )

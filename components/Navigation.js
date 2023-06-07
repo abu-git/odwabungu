@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Image from 'next/image'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function Navigation() {
@@ -9,8 +10,19 @@ function Navigation() {
         <div className='px-10 py-5 rounded shadow-md bg-sky-50 text-black fixed top-0 z-10 w-full'>
             {/* Large Screen Navigation */}
             <nav className='flex justify-between items-center'>
-                {/* home image */}
-                <h4 className='text-2xl font-bold'>Odwa Bungu</h4>
+                <Link to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                    <div className='flex items-center cursor-pointer'>
+                        <div className='ripple-nav'>
+                            <Image 
+                                src='/odwaMeta.png'
+                                width={27}
+                                height={27}
+                                alt='Odwa Bungu Logo'
+                            />
+                        </div>
+                        <h4 className='ml-2 font-extrabold text-[21px]'>Odwa Bungu</h4>
+                    </div>
+                </Link>
 
                 <ul className='hidden lg:flex justify-between items-center w-2/3 text-2xl'>
                     <Link to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
