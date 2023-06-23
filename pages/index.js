@@ -6,6 +6,7 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import Interview from '@/components/Interview'
+import Whatsapp from '@/components/Whatsapp'
 
 
 export default function Home() {
@@ -41,6 +42,7 @@ export default function Home() {
       <Interview />
       <Contact />
       <Footer />
+      <Whatsapp />
     </>
   )
 }
